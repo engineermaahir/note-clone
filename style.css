@@ -70,7 +70,12 @@ body{
   word-wrap: break-word;
 }
 .note i{
-  visibility: hidden;
+  visibility: visible;
+  position: relative;
+  top: 90%;
+  left: 90%;
+  color: cadetblue;
+  font-size: 25px;
 
 }
 .note-now{
@@ -78,14 +83,7 @@ body{
   border-radius: 5px;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
 }
-.note i.show{
-  visibility: visible;
-  position: relative;
-  top: 90%;
-  left: 90%;
-  color: cadetblue;
-  font-size: 25px;
-}
+
 
 .note:hover{
   box-shadow: 0px 2px 10px rgba(0,0,0,0.4);

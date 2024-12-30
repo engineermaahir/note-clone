@@ -50,17 +50,10 @@ noteArea.addEventListener('click',showNoteText)
 
 // show the icon button 
 
-document.addEventListener('mouseover', (e) => {
-  if(e.target.classList.contains('note')){
-    e.target.querySelector('i').classList.add('show')
-  }
-})
+
+
 // hide the icon button
-document.addEventListener('mouseout', (e) => {
-  if(e.target.classList.contains('note')){
-    e.target.querySelector('i').classList.remove('show')
-  }
-})
+
 // delete from local storage
 const deleteFromLocalStorage = (deletedNote) => {
   let oldNote;
