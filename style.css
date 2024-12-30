@@ -97,5 +97,10 @@ body{
   #notes{
     grid-template-columns: repeat(2,1fr);
   }
-
+  .note-area{
+    width: 400px;
+  }
+  .title{
+    width: 100%;
+  }
 }
